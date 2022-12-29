@@ -70,8 +70,20 @@ body {
 }
 
 .screen {
+  align-items: flex-end;
   border: 1px solid salmon;
+  display: flex;
+  flex-direction: column;
   height: 75px;
+  justify-content: flex-end;
   margin: 15px;
-  width: 400px;
+  width: 300px;
+}
+
+.previous {
+  font-size: 20px;
+}
+
+.current {
+  font-size: 30px;
 }
