@@ -6,3 +6,72 @@ body {
   justify-content: center;
   width: 100vw;
 }
+
+.btn {
+  height: 75px;
+  margin: 15px;
+  width: 75px;
+}
+
+.btn.number {
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.btn.number:hover{
+  background-color: green;
+}
+
+.btn.operator {
+  border: 1px solid steelblue;
+  border-radius: 10px;
+  font-size: 40px;
+}
+.btn.operator:hover {
+  background-color: blue;
+}
+
+.btn.decimal {
+  border: 1px solid gold;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.btn.decimal:hover {
+  background-color: orangered;
+}
+
+.btn.equal {
+  border: 1px solid pink;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.btn.equal:hover {
+  background-color: palevioletred;
+}
+
+.btn.clear {
+  border: 1px solid violet;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.btn.clear:hover {
+  background-color: purple;
+}
+
+.first-row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.screen {
+  border: 1px solid salmon;
+  height: 75px;
+  margin: 15px;
+  width: 400px;
+}
