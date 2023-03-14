@@ -2,4 +2,4 @@
 Simple calculator
 
 ## View here
-https://yuqingwang98.github.io/Calculator/
+https://yuqingwwang.github.io/Calculator/
